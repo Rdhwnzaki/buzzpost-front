@@ -4,10 +4,10 @@ import PostList from "../components/PostList";
 
 function Home() {
   return (
-    <Fragment>
+    <div className="bg-slate-900">
       <Navbar />
       <PostList />
-    </Fragment>
+    </div>
   );
 }
 
