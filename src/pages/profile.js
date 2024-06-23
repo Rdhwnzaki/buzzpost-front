@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import Navbar from "../components/Navbar";
-import PostList from "../components/PostList";
+import ProfileUser from "../components/Profile";
 
-function Home() {
+function Profile() {
   return (
     <div className="bg-slate-900 text-white">
       <Navbar />
-      <PostList />
+      <ProfileUser />
     </div>
   );
 }
 
-export default Home;
+export default Profile;

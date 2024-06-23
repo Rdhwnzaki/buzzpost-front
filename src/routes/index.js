@@ -7,6 +7,7 @@ import {
   // Outlet,
 } from "react-router-dom";
 import Home from "../pages/home";
+import Profile from "../pages/profile";
 
 function Router() {
   //   const PrivateRoute = () => {
@@ -23,7 +24,8 @@ function Router() {
       <Routes>
         {/* <Route path='/login' element={<LoginPage />} />
         <Route path='/register' element={<Register />} /> */}
-        <Route path='/' element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
